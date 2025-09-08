@@ -72,6 +72,7 @@ NB: The prepared instances contain some additional data that cannot be maintaine
 For TrueType-based formats (.ttf, .woff, .woff2 files), the official releases are manually optimized for screen rendering. These “hinting” sources are stored separately from the .ufo files, which do not contain any TrueType hinting information. When rebuilding TrueType-based formats, we recommend using the “autohint” option to achieve reasonable, though not identical screen rendering.
 
 If you would like to access and edit manual hinting instructions, you will find these in the separate set of source files under `hinting/truetype hinting source`. These special TTF files will be viewable and editable using [Microsoft VTT](https://learn.microsoft.com/en-us/typography/tools/vtt/).
+
  
  
 ## Suggesting Edits
